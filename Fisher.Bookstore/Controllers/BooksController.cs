@@ -13,6 +13,8 @@ namespace Fisher.Bookstore.Controllers
         {
             return Content("New-Book");
         }
+        
+        [ActionName("Best-Seller")]
          public IActionResult Best()
         {
             return Content("BS-Book");
