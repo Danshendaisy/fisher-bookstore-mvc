@@ -7,11 +7,13 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Index-Author");
+            return View();
+          //  return Content("Index-Author");
         }
          public IActionResult Featured()
         {
-            return Content("Featured");
+            return View();
+          //  return Content("Featured");
         }
        
     }
